@@ -1,4 +1,6 @@
-homecontrol
+Homecontrol
 ===========
 
-Android HomeControl app
+Android HomeControl Application
+
+
