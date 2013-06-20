@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OutletBlank</string>
+    <string name="action_settings">Settings</string>
+    <string name="on_message">ON</string>
+    <string name="off_message">OFF</string>
+    <string name="room_living">Living Room</string>
+    <string name="room_basement">Basement</string>
+    <string name="room_bedroom">Bedroom</string>
+</resources>
