@@ -28,6 +28,9 @@ public final class R {
          */
         public static final int activity_horizontal_margin=0x7f050000;
         public static final int activity_vertical_margin=0x7f050001;
+        public static final int button_margin=0x7f050005;
+        public static final int button_text=0x7f050003;
+        public static final int huge_button_text=0x7f050004;
         public static final int pad6=0x7f050002;
     }
     public static final class drawable {
@@ -61,6 +64,7 @@ public final class R {
         public static final int on_message=0x7f060002;
         public static final int room_basement=0x7f060005;
         public static final int room_bedroom=0x7f060006;
+        public static final int room_kitchen=0x7f060007;
         public static final int room_living=0x7f060004;
     }
     public static final class style {

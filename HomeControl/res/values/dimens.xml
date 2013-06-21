@@ -4,5 +4,8 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="pad6">6dp</dimen>
+    <dimen name="button_text">20dp</dimen>
+    <dimen name="huge_button_text">30dp</dimen>
+    <dimen name="button_margin">3dp</dimen>
 
 </resources>
