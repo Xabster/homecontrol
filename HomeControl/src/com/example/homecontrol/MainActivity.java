@@ -19,8 +19,6 @@ public class MainActivity extends Activity {
 
     public MainActivity() throws UnknownHostException {
 	adr = InetAddress.getByName("10.0.0.3");
-	
-	
     }
 
     @Override
