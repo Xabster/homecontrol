@@ -7,4 +7,5 @@
     <string name="room_living">Living Room</string>
     <string name="room_basement">Basement</string>
     <string name="room_bedroom">Bedroom</string>
+    <string name="room_kitchen">Kitchen</string>
 </resources>
