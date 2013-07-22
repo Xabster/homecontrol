@@ -5,23 +5,23 @@ public class Outlet {
     private String description;
 
     public long getOutletID() {
-	return outletID;
+        return outletID;
     }
 
     public void setOutletID(long outletID) {
-	this.outletID = outletID;
+        this.outletID = outletID;
     }
 
     public String getDescription() {
-	return description;
+        return description;
     }
 
     public void setDescription(String description) {
-	this.description = description;
+        this.description = description;
     }
 
     @Override
     public String toString() {
-	return description;
+        return description;
     }
 }
