@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:background="@layout/border"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/pad6"
+    android:paddingLeft="@dimen/pad6"
+    android:paddingRight="@dimen/pad6"
+    android:paddingTop="@dimen/pad6"
+    tools:context=".MainActivity" >
+
+        <Button
+            android:id="@+id/btn_Outlets"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/button_margin"
+            android:background="@drawable/custom_button"
+            android:text="@string/main_Outlets"
+            android:textSize="@dimen/huge_button_text"
+            android:onClick="onClick_Outlets"/>
+
+        <Button
+            android:id="@+id/btn_blackout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/button_margin"
+            android:background="@drawable/custom_button"
+            android:text="@string/main_Blackout"
+            android:textSize="@dimen/huge_button_text" />
+
+        <Button
+            android:id="@+id/btn_Settings"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/button_margin"
+            android:background="@drawable/custom_button"
+            android:text="@string/main_Settings"
+            android:textSize="@dimen/huge_button_text" />
+
+</LinearLayout>

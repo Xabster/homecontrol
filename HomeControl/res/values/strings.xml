@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">OutletBlank</string>
+    <string name="main_Outlets">Outlets</string>
+    <string name="main_Blackout">Blackout</string>
+    <string name="main_Settings">Settings</string>
+    <string name="app_name">LV Home Control</string>
     <string name="action_settings">Settings</string>
     <string name="on_message">ON</string>
     <string name="off_message">OFF</string>
