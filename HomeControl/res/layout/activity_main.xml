@@ -1,7 +1,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/LinearLayout1"
-    android:background="@layout/border"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -10,12 +9,11 @@
     android:paddingLeft="@dimen/pad6"
     android:paddingRight="@dimen/pad6"
     android:paddingTop="@dimen/pad6"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity" android:baselineAligned="true">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@layout/border"
         android:padding="@dimen/pad6" >
 
         <TextView
@@ -52,7 +50,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@layout/border"
         android:gravity="fill_horizontal"
         android:padding="@dimen/pad6" >
 
@@ -80,7 +77,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/button_margin"
-            android:background="@drawable/custom_button"
             android:text="@string/off_message"
             android:textSize="@dimen/huge_button_text" />
 
@@ -89,7 +85,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@layout/border"
         android:gravity="fill_horizontal"
         android:padding="@dimen/pad6" >
 
@@ -122,5 +117,15 @@
             android:textSize="@dimen/huge_button_text" />
 
     </LinearLayout>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button" android:background="#a2ff64"/>
+    <ToggleButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="New ToggleButton"
+            android:id="@+id/toggleButton"/>
 
 </LinearLayout>
