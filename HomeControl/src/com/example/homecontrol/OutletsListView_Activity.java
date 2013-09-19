@@ -1,14 +1,14 @@
 package com.example.homecontrol;
 
-import android.*;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.widget.ListView;
-import com.example.homecontrol.outlets.OutletsBaseAdapter;
-import com.example.homecontrol.outlets.OutletsData;
-import com.example.homecontrol.R;
+import com.example.homecontrol.outlet.OutletBaseAdapter;
+import com.example.homecontrol.outlet.OutletData;
+import com.example.homecontrol.outlet.OutletList;
 
+import java.net.UnknownHostException;
 import java.util.ArrayList;
 
 /**
@@ -22,7 +22,7 @@ public class OutletsListView_Activity extends Activity {
 
     ListView mOutletListView;
     Context mContext = OutletsListView_Activity.this;
-    ArrayList<OutletsData> mOutletDataList = new ArrayList<OutletsData>();
+    ArrayList<OutletData> mOutletDataList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,21 +31,17 @@ public class OutletsListView_Activity extends Activity {
 
         mOutletListView = (ListView) findViewById(R.id.listView);
 
-        getDataInList();
-        mOutletListView.setAdapter(new OutletsBaseAdapter(mContext, mOutletDataList));
+        mOutletDataList = OutletList.getInstance().getList();
 
+        getDataInList();
+
+        mOutletListView.setAdapter(new OutletBaseAdapter(mContext, mOutletDataList));
     }
 
     private void getDataInList() {
 
-        OutletsData myOutletData = new OutletsData();
-        myOutletData.setName("Outlet 1");
-        myOutletData.setAddress(10);
-        mOutletDataList.add(myOutletData);
+        OutletList.getInstance().add("Bedroom", 8);
 
-        myOutletData = new OutletsData();
-        myOutletData.setName("Outlet 2");
-        myOutletData.setAddress(20);
-        mOutletDataList.add(myOutletData);
+        OutletList.getInstance().add("Living Room", 16);
     }
 }

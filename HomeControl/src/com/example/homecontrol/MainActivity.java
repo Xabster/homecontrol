@@ -47,9 +47,6 @@ public class MainActivity extends Activity {
     /** Called when the user clicks the Send button */
     public void onClick_Blackout(View view) {
         Intent intent = new Intent(this, OutletsListView_Activity.class);
-        //EditText editText = (EditText) findViewById(R.id.edit_message);
-        //String message = editText.getText().toString();
-        //intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
 

@@ -1,4 +1,4 @@
-package com.example.homecontrol.outlets;
+package com.example.homecontrol.outlet;
 
 /**
  * Created with IntelliJ IDEA.
@@ -7,7 +7,7 @@ package com.example.homecontrol.outlets;
  * Time: 22:19
  * To change this template use File | Settings | File Templates.
  */
-public class OutletsData {
+public class OutletData {
     String mName;
     int mAddress;
 
