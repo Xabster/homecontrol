@@ -59,7 +59,7 @@ public class OutletsBaseAdapter extends BaseAdapter {
             myViewHolder = (MyViewHolder) convertView.getTag();
         }
 
-        myViewHolder.tvTitle = (TextView) convertView.findViewById(R.id.outlet_title);
+        myViewHolder.tvTitle = (TextView) convertView.findViewById(R.id.OutletName);
         myViewHolder.tvTitle.setText(mList.get(position).getName());
 
         //myViewHolder.tvDesc = (TextView) convertView.findViewById(R.id.outlet_text);
