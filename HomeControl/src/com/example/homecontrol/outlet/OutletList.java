@@ -33,6 +33,11 @@ public class OutletList {
         mList.add(myOutletData);
     }
 
+    public void clear()
+    {
+        mList.clear();
+    }
+
     public ArrayList<OutletData> getList() {
         return mList;
     }

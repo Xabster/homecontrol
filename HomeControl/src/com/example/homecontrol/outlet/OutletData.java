@@ -8,8 +8,9 @@ package com.example.homecontrol.outlet;
  * To change this template use File | Settings | File Templates.
  */
 public class OutletData {
-    String mName;
-    int mAddress;
+    private String mName;
+    private int mAddress;
+    private int mType;
 
     public int getType() {
         return mType;
@@ -19,7 +20,6 @@ public class OutletData {
         this.mType = mType;
     }
 
-    int mType;
 
     public String getName() {
         return mName;

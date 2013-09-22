@@ -4,11 +4,13 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.widget.ListView;
+import com.example.homecontrol.groups.GroupBaseAdapter;
+import com.example.homecontrol.groups.GroupData;
+import com.example.homecontrol.groups.GroupList;
 import com.example.homecontrol.outlet.OutletBaseAdapter;
 import com.example.homecontrol.outlet.OutletData;
 import com.example.homecontrol.outlet.OutletList;
 
-import java.net.UnknownHostException;
 import java.util.ArrayList;
 
 /**
@@ -18,11 +20,11 @@ import java.util.ArrayList;
  * Time: 22:50
  * To change this template use File | Settings | File Templates.
  */
-public class OutletsListView_Activity extends Activity {
+public class GroupListView_Activity extends Activity {
 
     ListView mOutletListView;
-    Context mContext = OutletsListView_Activity.this;
-    ArrayList<OutletData> mOutletDataList;
+    Context mContext = GroupListView_Activity.this;
+    ArrayList<GroupData> mOutletDataList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,21 +33,18 @@ public class OutletsListView_Activity extends Activity {
 
         mOutletListView = (ListView) findViewById(R.id.listView);
 
-        mOutletDataList = OutletList.getInstance().getList();
+        mOutletDataList = GroupList.getInstance().getList();
 
         getDataInList();
 
-        mOutletListView.setAdapter(new OutletBaseAdapter(mContext, mOutletDataList));
+        mOutletListView.setAdapter(new GroupBaseAdapter(mContext, mOutletDataList));
     }
 
     private void getDataInList() {
 
-        OutletList.getInstance().clear();
-        OutletList.getInstance().add("Bedroom", 8, 0);
-
-        OutletList.getInstance().add("Living Room", 16, 0);
-
-        OutletList.getInstance().add("New Type", 16, 1);
-        OutletList.getInstance().add("New Type2", 16, 1);
+        GroupList.getInstance().clear();
+        GroupList.getInstance().add("Køkken");
+        GroupList.getInstance().add("Bedroom");
+        GroupList.getInstance().add("Livingroom");
     }
 }

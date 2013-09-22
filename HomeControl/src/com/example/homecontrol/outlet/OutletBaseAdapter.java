@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import com.example.homecontrol.R;
 
@@ -33,25 +34,26 @@ public class OutletBaseAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return mList.size();  //To change body of implemented methods use File | Settings | File Templates.
+        return mList.size();
     }
 
     @Override
     public OutletData getItem(int position) {
-        return mList.get(position);  //To change body of implemented methods use File | Settings | File Templates.
+        return mList.get(position);
     }
 
     @Override
     public long getItemId(int position) {
-        return 0;  //To change body of implemented methods use File | Settings | File Templates.
+        return 0;
     }
 
     @Override
     public View getView(final int position, View convertView, ViewGroup parent) {
-        MyViewHolder myViewHolder;
         OutletData myOutletData = mList.get(position);
 
         if (myOutletData.getType() == 0) {
+            MyViewHolder myViewHolder;
+
             if (convertView == null) {
                 convertView = inflater.inflate(R.layout.outlet_list_item, null);
                 myViewHolder = new MyViewHolder();
@@ -60,10 +62,16 @@ public class OutletBaseAdapter extends BaseAdapter {
                 myViewHolder = (MyViewHolder) convertView.getTag();
             }
 
+            final int myOutletAddress = mList.get(position).getAddress();
             myViewHolder.OutletName = (TextView) convertView.findViewById(R.id.OutletName);
             myViewHolder.OutletName.setText(mList.get(position).getName());
+            myViewHolder.OutletName.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View arg0) {
+                    new OutletCommand(myOutletAddress, "OFF");
+                }
+            });
 
-            final int myOutletAddress = mList.get(position).getAddress();
             myViewHolder.OutletButtonOn = (Button) convertView.findViewById(R.id.OutletButtonOn);
             myViewHolder.OutletButtonOn.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -84,34 +92,21 @@ public class OutletBaseAdapter extends BaseAdapter {
         }
         else
         {
+            ListItem_Value_Holder myViewHolder;
 
             if (convertView == null) {
-                convertView = inflater.inflate(R.layout.outlet_list_item1, null);
-                myViewHolder = new MyViewHolder();
+                convertView = inflater.inflate(R.layout.listitem_value, null);
+                myViewHolder = new ListItem_Value_Holder();
                 convertView.setTag(myViewHolder);
             } else {
-                myViewHolder = (MyViewHolder) convertView.getTag();
+                myViewHolder = (ListItem_Value_Holder) convertView.getTag();
             }
 
-            myViewHolder.OutletName = (TextView) convertView.findViewById(R.id.OutletName);
-            myViewHolder.OutletName.setText(mList.get(position).getName());
+            myViewHolder.Name = (TextView) convertView.findViewById(R.id.ListItem_Value_Name);
+            myViewHolder.Name.setText(mList.get(position).getName());
 
-            final int myOutletAddress = mList.get(position).getAddress();
-            myViewHolder.OutletButtonOn = (Button) convertView.findViewById(R.id.OutletButtonOn);
-            myViewHolder.OutletButtonOn.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View arg0) {
-                    new OutletCommand(myOutletAddress, "ON");
-                }
-            });
-
-            myViewHolder.OutletButtonOff = (Button) convertView.findViewById(R.id.OutletButtonOff);
-            myViewHolder.OutletButtonOff.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View arg0) {
-                    new OutletCommand(myOutletAddress, "OFF");
-                }
-            });
+            myViewHolder.Value = (EditText) convertView.findViewById(R.id.ListItem_Value_Value);
+            myViewHolder.Value.setText("10");
 
             return convertView;
         }
@@ -122,5 +117,11 @@ public class OutletBaseAdapter extends BaseAdapter {
 
         Button OutletButtonOn;
         Button OutletButtonOff;
+    }
+
+    private class ListItem_Value_Holder {
+        TextView Name;
+
+        EditText Value;
     }
 }
