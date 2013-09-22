@@ -28,17 +28,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d65698f1-a9c6-4799-aa0e-668451ae99a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletList.java" />
-      <change type="MOVED" beforePath="C:\Users\Lennon\Documents\GitHub\homecontrol\HomeControl\src\com\example\homecontrol\outlets\OutletsBaseAdapter.java" afterPath="$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletBaseAdapter.java" />
-      <change type="MOVED" beforePath="C:\Users\Lennon\Documents\GitHub\homecontrol\HomeControl\src\com\example\homecontrol\outlets\OutletsData.java" afterPath="$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/homecontrol/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/example/homecontrol/MainActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/outlet_list_item1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletBaseAdapter.java" afterPath="$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletBaseAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletData.java" afterPath="$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletList.java" afterPath="$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletList.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/homecontrol/OutletsListView_Activity.java" afterPath="$PROJECT_DIR$/src/com/example/homecontrol/OutletsListView_Activity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HomeControl.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d65698f1-a9c6-4799-aa0e-668451ae99a4" time="1379623367711" ignored="false" />
+    <file path="/Dummy.txt" changelist="d65698f1-a9c6-4799-aa0e-668451ae99a4" time="1379835876521" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/misc.xml" changelist="d65698f1-a9c6-4799-aa0e-668451ae99a4" time="1374501338766" ignored="false" />
     <file path="/fragment.java" changelist="d65698f1-a9c6-4799-aa0e-668451ae99a4" time="1379623731860" ignored="false" />
     <file path="/strings.xml" changelist="d65698f1-a9c6-4799-aa0e-668451ae99a4" time="1379625248425" ignored="false" />
@@ -53,7 +52,7 @@
     <file path="D:/EnterpriseVault/LvElektronik/Projects/P0160-Android_Programming/Examples/DynamicListView/res/layout/main.xml" changelist="d65698f1-a9c6-4799-aa0e-668451ae99a4" time="1379609917737" ignored="false" />
     <file path="D:/EnterpriseVault/LvElektronik/Projects/P0160-Android_Programming/Examples/DynamicListView/res/values/strings.xml" changelist="d65698f1-a9c6-4799-aa0e-668451ae99a4" time="1379608712538" ignored="false" />
     <file path="D:/EnterpriseVault/LvElektronik/Projects/P0160-Android_Programming/Examples/DynamicListView/build.xml" changelist="d65698f1-a9c6-4799-aa0e-668451ae99a4" time="1379608712538" ignored="false" />
-    <file path="D:/EnterpriseVault/LvElektronik/Projects/P0160-Android_Programming/Examples/DynamicListView/.idea/workspace.xml" changelist="d65698f1-a9c6-4799-aa0e-668451ae99a4" time="1379632062106" ignored="false" />
+    <file path="D:/EnterpriseVault/LvElektronik/Projects/P0160-Android_Programming/Examples/DynamicListView/.idea/workspace.xml" changelist="d65698f1-a9c6-4799-aa0e-668451ae99a4" time="1379773050007" ignored="false" />
     <file path="/DynamicListViewActivity.java" changelist="d65698f1-a9c6-4799-aa0e-668451ae99a4" time="1379612094579" ignored="false" />
     <file path="/main.xml" changelist="d65698f1-a9c6-4799-aa0e-668451ae99a4" time="1379609902725" ignored="false" />
     <file path="D:/EnterpriseVault/LvElektronik/Projects/P0160-Android_Programming/Examples/DynamicListView/res/layout/layout_list_item.xml" changelist="d65698f1-a9c6-4799-aa0e-668451ae99a4" time="1379610257933" ignored="false" />
@@ -71,7 +70,10 @@
     <file path="/OutletsListView_Activity.java" changelist="d65698f1-a9c6-4799-aa0e-668451ae99a4" time="1379631576010" ignored="false" />
     <file path="/main_activity.xml" changelist="d65698f1-a9c6-4799-aa0e-668451ae99a4" time="1379623975812" ignored="false" />
     <file path="/OutletCommand.java" changelist="d65698f1-a9c6-4799-aa0e-668451ae99a4" time="1379631748529" ignored="false" />
-    <file path="/OutletList.java" changelist="d65698f1-a9c6-4799-aa0e-668451ae99a4" time="1379630840897" ignored="false" />
+    <file path="/OutletList.java" changelist="d65698f1-a9c6-4799-aa0e-668451ae99a4" time="1379836077574" ignored="false" />
+    <file path="/outlet_list_item1.xml" changelist="d65698f1-a9c6-4799-aa0e-668451ae99a4" time="1379772850934" ignored="false" />
+    <file path="/OutletData.java" changelist="d65698f1-a9c6-4799-aa0e-668451ae99a4" time="1379836020793" ignored="false" />
+    <file path="/OutletBaseAdapter.java" changelist="d65698f1-a9c6-4799-aa0e-668451ae99a4" time="1379836373905" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +88,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -123,6 +124,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -135,10 +137,8 @@
       <file leaf-file-name="OutletList.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="43" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#375#387#0" expanded="true" />
-              </folding>
+            <state line="31" column="34" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -147,9 +147,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="49" column="28" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,10 +155,8 @@
       <file leaf-file-name="OutletsListView_Activity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/OutletsListView_Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="5" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="40" column="34" selection-start="1247" selection-end="1247" vertical-scroll-proportion="-13.24">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -168,22 +164,40 @@
       <file leaf-file-name="OutletBaseAdapter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletBaseAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="13" selection-start="2686" selection-end="2686" vertical-scroll-proportion="0.8318891">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#582#594#0" expanded="true" />
-                <element signature="e#2185#2362#0" expanded="true" />
-                <element signature="e#2351#2352#0" expanded="true" />
-                <element signature="e#2518#2696#0" expanded="true" />
-              </folding>
+            <state line="88" column="73" selection-start="3072" selection-end="3072" vertical-scroll-proportion="0.41074523">
+              <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="outlet_list_item.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/outlet_list_item.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="44" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="outlet_list_item1.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/outlet_list_item1.xml">
+          <provider editor-type-id="text-editor">
+            <state line="21" column="39" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="OutletData.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="25" selection-start="219" selection-end="255" vertical-scroll-proportion="0.0">
+            <state line="17" column="23" selection-start="329" selection-end="336" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -193,9 +207,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletCommand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="21" column="24" selection-start="478" selection-end="491" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -218,8 +230,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/layout/main_activity.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/example/homecontrol/OutletsActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/outlet_list_view.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
@@ -230,8 +240,10 @@
         <option value="$PROJECT_DIR$/src/com/example/homecontrol/outlets/OutletsBaseAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/example/homecontrol/outlets/OutletBaseAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/example/homecontrol/MainActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletList.java" />
         <option value="$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletCommand.java" />
+        <option value="$PROJECT_DIR$/res/layout/outlet_list_item1.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletData.java" />
+        <option value="$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletList.java" />
         <option value="$PROJECT_DIR$/src/com/example/homecontrol/OutletsListView_Activity.java" />
         <option value="$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletBaseAdapter.java" />
       </list>
@@ -430,14 +442,14 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
+    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -480,19 +492,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -518,6 +517,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -646,13 +658,12 @@
     <frame x="-4" y="-4" width="1928" height="986" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67068756" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67068756" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.72738236" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.72738236" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67068756" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293124" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293124" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
@@ -665,11 +676,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24599786" sideWeight="0.72738236" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39927623" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2726176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293124" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39927623" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -737,16 +749,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/border.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="45" selection-start="271" selection-end="272" vertical-scroll-proportion="-4.76">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="66" selection-start="1650" selection-end="1650" vertical-scroll-proportion="0.9444444">
@@ -771,16 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/outlet_list_item.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="39" selection-start="735" selection-end="735" vertical-scroll-proportion="-5.76">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main_activity.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="41" selection-start="1139" selection-end="1139" vertical-scroll-proportion="-7.8">
@@ -803,9 +795,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/database/SQLiteHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="1" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="29" column="1" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/network/PacketSenderTask.java">
@@ -826,9 +816,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="28" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/outlet_list_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="44" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/outlet_list_item1.xml">
+      <provider editor-type-id="text-editor">
+        <state line="21" column="39" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="25" selection-start="219" selection-end="255" vertical-scroll-proportion="0.0">
+        <state line="17" column="23" selection-start="329" selection-end="336" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -836,49 +853,28 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="24" selection-start="478" selection-end="491" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="43" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#375#387#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="28" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="31" column="34" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/OutletsListView_Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="5" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="40" column="34" selection-start="1247" selection-end="1247" vertical-scroll-proportion="-13.24">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletBaseAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="13" selection-start="2686" selection-end="2686" vertical-scroll-proportion="0.8318891">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#582#594#0" expanded="true" />
-            <element signature="e#2185#2362#0" expanded="true" />
-            <element signature="e#2351#2352#0" expanded="true" />
-            <element signature="e#2518#2696#0" expanded="true" />
-          </folding>
+        <state line="88" column="73" selection-start="3072" selection-end="3072" vertical-scroll-proportion="0.41074523">
+          <folding />
         </state>
       </provider>
     </entry>

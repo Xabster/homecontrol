@@ -49,36 +49,72 @@ public class OutletBaseAdapter extends BaseAdapter {
     @Override
     public View getView(final int position, View convertView, ViewGroup parent) {
         MyViewHolder myViewHolder;
+        OutletData myOutletData = mList.get(position);
 
-        if (convertView == null) {
-            convertView = inflater.inflate(R.layout.outlet_list_item, null);
-            myViewHolder = new MyViewHolder();
-            convertView.setTag(myViewHolder);
-        } else {
-            myViewHolder = (MyViewHolder) convertView.getTag();
+        if (myOutletData.getType() == 0) {
+            if (convertView == null) {
+                convertView = inflater.inflate(R.layout.outlet_list_item, null);
+                myViewHolder = new MyViewHolder();
+                convertView.setTag(myViewHolder);
+            } else {
+                myViewHolder = (MyViewHolder) convertView.getTag();
+            }
+
+            myViewHolder.OutletName = (TextView) convertView.findViewById(R.id.OutletName);
+            myViewHolder.OutletName.setText(mList.get(position).getName());
+
+            final int myOutletAddress = mList.get(position).getAddress();
+            myViewHolder.OutletButtonOn = (Button) convertView.findViewById(R.id.OutletButtonOn);
+            myViewHolder.OutletButtonOn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View arg0) {
+                    new OutletCommand(myOutletAddress, "ON");
+                }
+            });
+
+            myViewHolder.OutletButtonOff = (Button) convertView.findViewById(R.id.OutletButtonOff);
+            myViewHolder.OutletButtonOff.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View arg0) {
+                    new OutletCommand(myOutletAddress, "OFF");
+                }
+            });
+
+            return convertView;
         }
+        else
+        {
 
-        myViewHolder.OutletName = (TextView) convertView.findViewById(R.id.OutletName);
-        myViewHolder.OutletName.setText(mList.get(position).getName());
-
-        final int myOutletAddress = mList.get(position).getAddress();
-        myViewHolder.OutletButtonOn = (Button) convertView.findViewById(R.id.OutletButtonOn);
-        myViewHolder.OutletButtonOn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View arg0) {
-                new OutletCommand(myOutletAddress, "ON");
+            if (convertView == null) {
+                convertView = inflater.inflate(R.layout.outlet_list_item1, null);
+                myViewHolder = new MyViewHolder();
+                convertView.setTag(myViewHolder);
+            } else {
+                myViewHolder = (MyViewHolder) convertView.getTag();
             }
-        });
 
-        myViewHolder.OutletButtonOff = (Button) convertView.findViewById(R.id.OutletButtonOff);
-        myViewHolder.OutletButtonOff.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View arg0) {
-                new OutletCommand(myOutletAddress, "OFF");
-            }
-        });
+            myViewHolder.OutletName = (TextView) convertView.findViewById(R.id.OutletName);
+            myViewHolder.OutletName.setText(mList.get(position).getName());
 
-        return convertView;
+            final int myOutletAddress = mList.get(position).getAddress();
+            myViewHolder.OutletButtonOn = (Button) convertView.findViewById(R.id.OutletButtonOn);
+            myViewHolder.OutletButtonOn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View arg0) {
+                    new OutletCommand(myOutletAddress, "ON");
+                }
+            });
+
+            myViewHolder.OutletButtonOff = (Button) convertView.findViewById(R.id.OutletButtonOff);
+            myViewHolder.OutletButtonOff.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View arg0) {
+                    new OutletCommand(myOutletAddress, "OFF");
+                }
+            });
+
+            return convertView;
+        }
     }
 
     private class MyViewHolder {

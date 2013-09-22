@@ -24,11 +24,12 @@ public class OutletList {
         return mInstance;
     }
 
-    public void add(String mName,  int mAddress)
+    public void add(String mName,  int mAddress, int type)
     {
         OutletData myOutletData = new OutletData();
         myOutletData.setName(mName);
         myOutletData.setAddress(mAddress);
+        myOutletData.setType(type);
         mList.add(myOutletData);
     }
 

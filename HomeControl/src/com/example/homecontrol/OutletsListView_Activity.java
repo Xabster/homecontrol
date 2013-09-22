@@ -40,8 +40,10 @@ public class OutletsListView_Activity extends Activity {
 
     private void getDataInList() {
 
-        OutletList.getInstance().add("Bedroom", 8);
+        OutletList.getInstance().add("Bedroom", 8, 1);
 
-        OutletList.getInstance().add("Living Room", 16);
+        OutletList.getInstance().add("Living Room", 16, 0);
+
+        OutletList.getInstance().add("New Type", 16, 1);
     }
 }

@@ -11,6 +11,16 @@ public class OutletData {
     String mName;
     int mAddress;
 
+    public int getType() {
+        return mType;
+    }
+
+    public void setType(int mType) {
+        this.mType = mType;
+    }
+
+    int mType;
+
     public String getName() {
         return mName;
     }
