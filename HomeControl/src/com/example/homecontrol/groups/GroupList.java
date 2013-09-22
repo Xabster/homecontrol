@@ -28,8 +28,7 @@ public class GroupList {
 
     public void add(String mName)
     {
-        GroupData myGroupData = new GroupData();
-        myGroupData.setName(mName);
+        GroupData myGroupData = new GroupData(mName);
         mList.add(myGroupData);
     }
 

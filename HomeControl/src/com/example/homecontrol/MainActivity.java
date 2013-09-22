@@ -1,6 +1,7 @@
 package com.example.homecontrol;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -9,17 +10,29 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
+import android.widget.ListView;
+import com.example.homecontrol.groups.GroupBaseAdapter;
+import com.example.homecontrol.groups.GroupData;
+import com.example.homecontrol.groups.GroupList;
 import com.example.homecontrol.network.PacketSenderTask;
 import com.example.homecontrol.network.UDPListener_Runable;
+import com.example.homecontrol.outlet.OutletBaseAdapter;
+import com.example.homecontrol.outlet.OutletData;
+import com.example.homecontrol.outlet.OutletList;
 
 import java.net.DatagramPacket;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
+import java.util.ArrayList;
 
 public class MainActivity extends Activity {
     private Button button;
     private InetAddress adr;
     private int port = 13337;
+
+    ListView mOutletListView;
+    Context mContext = MainActivity.this;
+    ArrayList<GroupData> mOutletDataList;
 
     public MainActivity() throws UnknownHostException {
         //adr = InetAddress.getByName("10.0.0.3");
@@ -31,8 +44,16 @@ public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_activity);
+        super.onCreate(savedInstanceState);    //To change body of overridden methods use File | Settings | File Templates.
+        setContentView(R.layout.outlet_list_view);
+
+        mOutletListView = (ListView) findViewById(R.id.listView);
+
+        mOutletDataList = GroupList.getInstance().getList();
+
+        getDataInList();
+
+        mOutletListView.setAdapter(new GroupBaseAdapter(mContext, mOutletDataList));
     }
     /** Called when the user clicks the Send button */
     public void onClick_Outlets(View view) {
@@ -40,6 +61,13 @@ public class MainActivity extends Activity {
         startActivity(intent);
     }
 
+    private void getDataInList() {
+
+        GroupList.getInstance().clear();
+        GroupList.getInstance().add("Køkken");
+        GroupList.getInstance().add("Bedroom");
+        GroupList.getInstance().add("Livingroom");
+    }
     /** Called when the user clicks the Send button */
     public void onClick_Blackout(View view) {
         //Intent intent = new Intent(this, OutletsListView_Activity.class);
@@ -51,10 +79,4 @@ public class MainActivity extends Activity {
         startActivity(intent);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
 }

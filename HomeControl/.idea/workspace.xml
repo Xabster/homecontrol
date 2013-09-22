@@ -28,18 +28,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d65698f1-a9c6-4799-aa0e-668451ae99a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/homecontrol/groups/GroupBaseAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/homecontrol/groups/GroupData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/homecontrol/groups/GroupList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/homecontrol/GroupListView_Activity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/group_list_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/listitem_value.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/homecontrol/groups/GroupData.java" afterPath="$PROJECT_DIR$/src/com/example/homecontrol/groups/GroupData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/homecontrol/groups/GroupList.java" afterPath="$PROJECT_DIR$/src/com/example/homecontrol/groups/GroupList.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/homecontrol/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/example/homecontrol/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletBaseAdapter.java" afterPath="$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletBaseAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletData.java" afterPath="$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletList.java" afterPath="$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/homecontrol/OutletsListView_Activity.java" afterPath="$PROJECT_DIR$/src/com/example/homecontrol/OutletsListView_Activity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HomeControl.iws" />
@@ -149,10 +140,30 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="31" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.0">
+            <state line="51" column="60" selection-start="1807" selection-end="1807" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupList.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/groups/GroupList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="0" selection-start="831" selection-end="831" vertical-scroll-proportion="0.8526863">
+              <folding>
+                <element signature="e#423#434#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupData.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/groups/GroupData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -168,10 +179,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OutletsListView_Activity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="OutletsListView_Activity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/OutletsListView_Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="56" selection-start="787" selection-end="1205" vertical-scroll-proportion="0.18370883">
+            <state line="39" column="0" selection-start="1212" selection-end="1528" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -180,7 +191,7 @@
       <file leaf-file-name="GroupListView_Activity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/GroupListView_Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.0">
+            <state line="23" column="0" selection-start="702" selection-end="826" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -198,7 +209,7 @@
       <file leaf-file-name="GroupBaseAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/groups/GroupBaseAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="27" selection-start="2249" selection-end="2249" vertical-scroll-proportion="0.0">
+            <state line="63" column="9" selection-start="1780" selection-end="1780" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#746#757#0" expanded="true" />
@@ -247,14 +258,14 @@
         <option value="$PROJECT_DIR$/src/com/example/homecontrol/OutletsListView_Activity.java" />
         <option value="$PROJECT_DIR$/res/layout/listitem_value.xml" />
         <option value="$PROJECT_DIR$/src/com/example/homecontrol/outlet/OutletBaseAdapter.java" />
-        <option value="$PROJECT_DIR$/src/com/example/homecontrol/groups/GroupData.java" />
         <option value="$PROJECT_DIR$/res/layout/outlet_list_item1.xml" />
         <option value="$PROJECT_DIR$/res/layout/group_list_item.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/homecontrol/groups/GroupList.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/homecontrol/GroupListView_Activity.java" />
         <option value="$PROJECT_DIR$/src/com/example/homecontrol/groups/GroupBaseAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/example/homecontrol/GroupListView_Activity.java" />
         <option value="$PROJECT_DIR$/src/com/example/homecontrol/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/homecontrol/groups/GroupData.java" />
+        <option value="$PROJECT_DIR$/src/com/example/homecontrol/groups/GroupList.java" />
       </list>
     </option>
   </component>
@@ -805,25 +816,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/groups/GroupList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="287" selection-end="296" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#423#434#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="0" selection-start="1727" selection-end="1727" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/groups/GroupData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="207" selection-end="216" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -877,9 +872,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/GroupListView_Activity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/OutletsListView_Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.0">
+        <state line="39" column="0" selection-start="1212" selection-end="1528" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -891,9 +886,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/GroupListView_Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="702" selection-end="826" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="60" selection-start="1807" selection-end="1807" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/groups/GroupData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/groups/GroupBaseAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="27" selection-start="2249" selection-end="2249" vertical-scroll-proportion="0.0">
+        <state line="63" column="9" selection-start="1780" selection-end="1780" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#746#757#0" expanded="true" />
@@ -903,19 +921,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/groups/GroupList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="31" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.0">
+        <state line="38" column="0" selection-start="831" selection-end="831" vertical-scroll-proportion="0.8526863">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#423#434#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/homecontrol/OutletsListView_Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="56" selection-start="787" selection-end="1205" vertical-scroll-proportion="0.18370883">
-          <folding />
         </state>
       </provider>
     </entry>

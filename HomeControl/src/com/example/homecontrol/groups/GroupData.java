@@ -10,12 +10,11 @@ package com.example.homecontrol.groups;
 public class GroupData {
     private String mName;
 
+    public GroupData(String mName) {
+        this.mName = mName;
+    }
 
     public String getName() {
         return mName;
-    }
-
-    public void setName(String mName) {
-        this.mName = mName;
     }
 }
